@@ -34,6 +34,6 @@ class InitBase:
 
     def __del__(self):
         # Destructor method (del keyword)
-        # Called when the object is destroyed / when all there are
+        # Called when the object is destroyed / when there are
         # no more references to the object.
-        pass
+        print(f'No one loves me anymore. Bye!')
